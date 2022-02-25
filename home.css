@@ -1,0 +1,93 @@
+
+html, h1, h2, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about p{
+    font-size: 18px; 
+    letter-spacing: 0.5px;
+}
+
+header .name-logo{
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 48px;
+    margin: 60px 0px 0px 0px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.project {
+    border: solid 1px black;
+    border-radius: 9px;
+    background-color: white;
+    size: 100%;
+    padding: 16px;
+    margin-top: 10px;
+    margin-right: 0.3%;
+    width: 30%;
+    display: inline-block;
+    color: black;
+}
+
+.project:hover {
+    cursor: pointer;
+    padding: 20px;
+    margin-right: 0px;
+    transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
+}
+
+.project:not(:hover) {
+    cursor: pointer;
+    padding: 16px;
+    margin-right: 0.3%;
+    transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
+}
+
+.project:active {
+    padding: 16px;
+    margin-right: 0.3%;
+    transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
+}
+
+.project-title {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.project-description {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.javascript {
+    background-color: #ff99e6;
+}
+
+.project-tags {
+    display: flex;
+}
+
+.project-tag {
+    margin: 0px 8px 0px 0px;
+    font-size: 14px;
+    border-radius: 2.5px;
+    padding: 3px 7px;
+}
+
+.columns-3 {
+    column-count: 3;
+}
+
+li {
+    font-size: 18px;
+}
