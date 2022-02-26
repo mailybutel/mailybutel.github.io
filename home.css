@@ -1,5 +1,5 @@
 
-html, h1, h2, p {
+body, html, h1, h2, p {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,14 +8,19 @@ html, h1, h2, p {
     letter-spacing: 0.5px;
 }
 
-header .name-logo{
+.name-logo{
     color: black;
     text-decoration: none;
     font-size: 36px;
+    margin: 20px 0px 0px 0px;
 }
 
 .font-bold {
     font-weight: 700;
+}
+
+.font-italics {
+    font-style: italic;
 }
 
 .section-title {
@@ -31,32 +36,33 @@ header .name-logo{
     border-radius: 9px;
     background-color: white;
     size: 100%;
-    padding: 16px;
+    padding: 3px 16px 16px 16px;
     margin-top: 10px;
     margin-right: 0.3%;
-    width: 30%;
+    width: 28%;
     display: inline-block;
     color: black;
+    text-decoration: none;
 }
 
 .project:hover {
     cursor: pointer;
-    padding: 20px;
+    padding: 7px 20px 20px 20px;
     margin-right: 0px;
     transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
 }
 
 .project:not(:hover) {
     cursor: pointer;
-    padding: 16px;
+    padding: 3px 16px 16px 16px;
     margin-right: 0.3%;
     transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
 }
 
 .project:active {
-    padding: 16px;
+    padding: 3px 16px 16px 16px;
     margin-right: 0.3%;
-    transition: padding 0.4s ease-in-out, margin-right 0.4s ease-in-out;
+    transition: padding 0.07s ease-in-out, margin-right 0.07s ease-in-out;
 }
 
 .project-title {
@@ -65,12 +71,32 @@ header .name-logo{
 }
 
 .project-description {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.5px;
 }
 
 .javascript {
     background-color: #ff99e6;
+}
+
+.html {
+    background-color: #ff8080;
+}
+
+.css {
+    background-color: #bf80ff;
+}
+
+.api {
+    background-color: #3399ff;
+}
+
+.react {
+    background-color: #4dffa6;
+}
+
+.node {
+    background-color: #ff4d94;
 }
 
 .project-tags {
@@ -90,4 +116,30 @@ header .name-logo{
 
 li {
     font-size: 18px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0px;
+}
+
+.footer-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.mail {
+    display: inline-flex;
+}
+
+.material-icons {
+    margin-right: 10px;
 }

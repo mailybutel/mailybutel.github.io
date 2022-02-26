@@ -2,6 +2,7 @@
 
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Maily Butel | Software Portfolio</title>
         <!-- Link css file -->
         <link rel="stylesheet" href="home.css">
@@ -13,10 +14,16 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <!-- Link google fonts for icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <header>
-            <a class="name-logo font-bold" href="#">Maily Butel</a>
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+                    <a class="name-logo font-bold font-italics" href="#">Maily Butel</a>
+                </div>
+            </div>
         </header>
         <main>
             <div class="mdl-grid">
@@ -32,32 +39,26 @@
                     <div id="projects">
                         <h1 class="section-title">PROJECTS</h1>
                         <div class="prject-grid">
-                            <a class="project">
-                                    <h2 class="project-title font-bold">Project 1</h2>
-                                    <p class="project-description">aihie abcw ajchw akchis acis aich</p>
-                                    <div class="project-tags">
-                                        <p class="project-tag javascript">JavaScript</p>
-                                    </div>
+                            <a class="project" href="https://mailybutel.github.io/Getaway-Bloom/">
+                                <h2 class="project-title font-bold">Getaway Bloom</h2>
+                                <p>(Uni project)</p>
+                                <p class="project-description">A holiday planner web app made using vanilla JS and mapbox API.</p>
+                                <div class="project-tags">
+                                    <p class="project-tag javascript">JavaScript</p>
+                                    <p class="project-tag html">HTML</p>
+                                    <p class="project-tag css">CSS</p>
+                                    <p class="project-tag api">APIs</p>
+                                </div>
                             </a>
-                            <a class="project">
-                                    <h2 class="project-title font-bold">Project 2</h2>
-                                    <p class="project-description">aihie abcw ajchw akchis acis aich</p>
+                            <a class="project" href="https://mailybutel.github.io/butel/">
+                                    <h2 class="project-title font-bold">BUTEL</h2>
+                                    <p>(Personal project in progress)</p>
+                                    <p class="project-description">A fashion e-commerce site using React and Node js.</p>
                                     <div class="project-tags">
-                                        <p class="project-tag javascript">JavaScript</p>
-                                    </div>
-                            </a>
-                            <a class="project">
-                                    <h2 class="project-title font-bold">Project 3</h2>
-                                    <p class="project-description">aihie abcw ajchw akchis acis aich</p>
-                                    <div class="project-tags">
-                                        <p class="project-tag javascript">JavaScript</p>
-                                    </div>
-                            </a>
-                            <a class="project">
-                                    <h2 class="project-title font-bold">Project 4</h2>
-                                    <p class="project-description">aihie abcw ajchw akchis acis aich</p>
-                                    <div class="project-tags">
-                                        <p class="project-tag javascript">JavaScript</p>
+                                        <p class="project-tag html">HTML</p>
+                                        <p class="project-tag css">CSS</p>
+                                        <p class="project-tag react">React</p>
+                                        <p class="project-tag node">Node</p>
                                     </div>
                             </a>
                         </div>
@@ -72,7 +73,7 @@
                             <li>React</li>
                             <li>Node.js</li>
                             <li>Java</li>
-                            <li>PythonL</li>
+                            <li>Python</li>
                             <li>MatLab</li>
                             <li>APIs</li>
                             <li>Git</li>
@@ -84,4 +85,13 @@
             
         </main>
     </body>
+    <footer>
+        <div class="contact">
+            <h3 class="footer-title">Get in contact!</h3>
+            <div class="mail">
+                <span class="material-icons">mail_outline</span>
+                <p>mailybutel@gmail.com</p>
+            </div>
+        </div>
+    </footer>
 </html>
