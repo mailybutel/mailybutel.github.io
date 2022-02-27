@@ -3,6 +3,10 @@ body, html, h1, h2, p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.project p {
+    margin-bottom: 5px;
+}
+
 #about p{
     font-size: 18px; 
     letter-spacing: 0.5px;
@@ -13,6 +17,10 @@ body, html, h1, h2, p {
     text-decoration: none;
     font-size: 36px;
     margin: 20px 0px 0px 0px;
+}
+
+header .nav {
+    padding-top: 12px;
 }
 
 .font-bold {
@@ -142,4 +150,10 @@ footer {
 
 .material-icons {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 1367px) {
+    .project {
+        width: 93%;
+    }
 }
